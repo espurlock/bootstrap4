@@ -35,7 +35,7 @@
                 -->
                 </div>
                 <span class="navbar-text">
-                    <a> <span class="fa fa-sign-in"></span> Login</a>
+                    <a class="btn" id="loginButton"> <span class="fa fa-sign-in"></span> Login</a>
                 </span>
         </div>
     </nav>
@@ -317,6 +317,10 @@
 
           $('#reservationButton').click(function(){
             $('#reservationModal').modal('toggle');
+          });
+
+          $('#loginButton').click(function(){
+              $('#loginModal').modal('toggle');
           });
 
       });
